@@ -1,0 +1,8 @@
+Stage,Resources/Data/StageData.csv
+Model,Resources/Data/ModelPath.csv
+Texture,Resources/Data/TexturePath.csv
+Sound,Resources/Data/SoundPath.csv
+Option,Resources/Data/Option.json
+UI,Resources/Data/UILayout.json
+DebugFont,Resources/Font/MSgothic.spritefont
+Shader,Resources/Data/ShaderList.json
