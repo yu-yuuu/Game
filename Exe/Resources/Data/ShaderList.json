@@ -1,0 +1,37 @@
+{
+  "MenuBackGround": {
+    "VS": "Resources/Shader/CSO/MenuBackGroundVS.cso",
+    "GS": "",
+    "PS": "Resources/Shader/CSO/MenuBackGroundPS.cso"
+  },
+  "Window": {
+    "VS": "Resources/Shader/CSO/MenuWindowVS.cso",
+    "GS": "Resources/Shader/CSO/MenuWindowGS.cso",
+    "PS": "Resources/Shader/CSO/MenuWindowPS.cso"
+  },
+  "UI": {
+    "VS": "Resources/Shader/CSO/UIVS.cso",
+    "GS": "Resources/Shader/CSO/UIGS.cso",
+    "PS": "Resources/Shader/CSO/UIPS.cso"
+  },
+  "PlayerSilhouette": {
+    "VS": "",
+    "GS": "",
+    "PS": "Resources/Shader/CSO/PlayerSilhouette.cso"
+  },
+  "GameStartMask": {
+    "VS": "Resources/Shader/CSO/PlaySceneMaskVS.cso",
+    "GS": "",
+    "PS": "Resources/Shader/CSO/PlaySceneMaskPS.cso"
+  },
+  "Effect": {
+    "VS": "Resources/Shader/CSO/EffectVS.cso",
+    "GS": "Resources/Shader/CSO/EffectGS.cso",
+    "PS": "Resources/Shader/CSO/EffectPS.cso"
+  },
+  "Fade": {
+    "VS": "Resources/Shader/CSO/FadeVS.cso",
+    "GS": "",
+    "PS": "Resources/Shader/CSO/FadePS.cso"
+  }
+}

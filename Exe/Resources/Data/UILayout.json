@@ -1,0 +1,322 @@
+{
+  "TitleScene": [
+    {
+      "Name":"TitleLogo",
+      "isOperate": false,"Tag": [ "Always" ],"Texture": "TitleLogo",
+      "Position": [ 640.0, 200.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"PushEnterText",
+      "isOperate": true,"Tag": [ "PushEnter" ],"Texture": "PushEnter",
+      "Position": [ 640.0, 550.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectUpButton",
+      "isOperate": false,"Tag": [ "ModeSelect" ],"Texture": "Up",
+      "Position": [ 1075.0, 615.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectDownButton",
+      "isOperate": false,"Tag": [ "ModeSelect" ],"Texture": "Down",
+      "Position": [ 1125.0, 615.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectText",
+      "isOperate": false,"Tag": [ "ModeSelect" ],"Texture": "Select",
+      "Position": [ 1150.0, 615.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"EnterButton",
+      "isOperate": false,"Tag": [ "ModeSelect" ],"Texture": "Enter",
+      "Position": [ 1100.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"EnterText",
+      "isOperate": false,"Tag": [ "ModeSelect" ],"Texture": "Decision",
+      "Position": [ 1150.0, 675.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"}
+  ],
+  "StageSelectScene": [
+    {
+      "Name":"StageSelectText",
+      "isOperate": false,"Tag": [ "Always" ],"Texture": "StageSelect",
+      "Position": [ 0.0, 0.0 ],"AnchorPoint": 0,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectButtonUp",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Up",
+      "Position": [ 1075.0, 615.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectDownButton",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Down",
+      "Position": [ 1125.0, 615.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectText",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Select",
+      "Position": [ 1150.0, 615.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"EnterButton",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Enter",
+      "Position": [ 1100.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"EnterText",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Decision",
+      "Position": [ 1150.0, 675.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"MenuButton",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Escape",
+      "Position": [ 50.0, 675.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"MenuText",
+      "isOperate": false,"Tag": [ "Always" ],"Texture": "Menu",
+      "Position": [ 110.0, 675.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectArrowUp",
+      "isOperate": true,"Tag": [ "StageSelectArrowUp" ],"Texture": "SelectArrow",
+      "Position": [ 1200.0, 340.0 ],"AnchorPoint": 7,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectArrowDown",
+      "isOperate": true,"Tag": [ "StageSelectArrowDown" ],"Texture": "SelectArrow",
+      "Position": [ 1200.0, 380.0 ],"AnchorPoint": 1,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": true,"InputKey": "0x00"}
+  ],
+  "PlayScene": [
+    {
+      "Name":"MoveButtonUp",
+      "isOperate": true,"Tag": [ "PlayState", "OverLooking3D" ],"Texture": "Up",
+      "Position": [ 1180.0, 625.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x26"},
+    {
+      "Name":"MoveButtonDown",
+      "isOperate": true,"Tag": [ "PlayState", "OverLooking3D" ],"Texture": "Down",
+      "Position": [ 1180.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x28"},
+    {
+      "Name":"MoveButtonRight",
+      "isOperate": true,"Tag": [ "PlayState" ],"Texture": "Right",
+      "Position": [ 1230.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x27"},
+    {
+      "Name":"MoveButtonLeft",
+      "isOperate": true,"Tag": [ "PlayState" ],"Texture": "Left",
+      "Position": [ 1130.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x25"},
+    {
+      "Name":"MoveText",
+      "isOperate": false,"Tag": [ "PlayState" ],"Texture": "Move",
+      "Position": [ 1090.0, 650.0 ],"AnchorPoint": 5,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"JumpButton",
+      "isOperate": true,"Tag": [ "PlayState" ],"Texture": "Space",
+      "Position": [ 1180.0, 565.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x20"},
+    {
+      "Name":"JumpText",
+      "isOperate": false,"Tag": [ "PlayState" ],"Texture": "Jump",
+      "Position": [ 1090.0, 565.0 ],"AnchorPoint": 5,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"CameraRotationButtonW",
+      "isOperate": true,"Tag": [ "Always" ],"Texture": "W",
+      "Position": [ 100.0, 625.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x57"},
+    {
+      "Name":"CameraRotationButtonS",
+      "isOperate": true,"Tag": [ "Always" ],"Texture": "S",
+      "Position": [ 100.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x53"},
+    {
+      "Name":"CameraRotationButtonA",
+      "isOperate": true,"Tag": [ "Always" ],"Texture": "A",
+      "Position": [ 50.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x41"},
+    {
+      "Name":"CameraRotationButtonD",
+      "isOperate": true,"Tag": [ "Always" ],"Texture": "D",
+      "Position": [ 150.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x44"},
+    {
+      "Name":"CameraRotationText",
+      "isOperate": false,"Tag": [ "PlayState", "OverLooking3D" ],"Texture": "CameraRotation",
+      "Position": [ 190.0, 650.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"DimensionButton",
+      "isOperate": true,"Tag": [ "PlayState" ],"Texture": "E",
+      "Position": [ 100.0, 565.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x45"},
+    {
+      "Name":"DimentionText",
+      "isOperate": false,"Tag": [ "PlayState" ],"Texture": "Dimension",
+      "Position": [ 190.0, 565.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"OverLookingButton",
+      "isOperate": true,"Tag": [ "Always" ],"Texture": "F",
+      "Position": [ 100.0, 505.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x46"},
+    {
+      "Name":"OverLookingText",
+      "isOperate": false,"Tag": [ "PlayState" ],"Texture": "OverLooking",
+      "Position": [ 190.0, 505.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"ReturnText",
+      "isOperate": false,"Tag": [ "OverLooking2D", "OverLooking3D" ],"Texture": "Return_2",
+      "Position": [ 190.0, 505.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"MenuButton",
+      "isOperate": false,"Tag": [ "Always" ],"Texture": "Escape",
+      "Position": [50.0, 45.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"MenuText",
+      "isOperate": false,"Tag": [ "Always" ],"Texture": "Menu",
+      "Position": [ 110.0, 45.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"ScalingText",
+      "isOperate": false,"Tag": [ "OverLooking3D" ],"Texture": "Scaling",
+      "Position": [ 1090.0, 650.0 ],"AnchorPoint": 5,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"CameraMoveText",
+      "isOperate": false,"Tag": [ "OverLooking2D" ],"Texture": "CameraMove",
+      "Position": [ 190.0, 650.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SkipButton",
+      "isOperate": false,"Tag": [ "StartAnimation" ],"Texture": "Enter",
+      "Position": [ 1180.0, 680.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SkipText",
+      "isOperate": false,"Tag": [ "StartAnimation" ],"Texture": "Skip",
+      "Position": [ 1090.0, 680.0 ],"AnchorPoint": 5,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"}
+  ],
+  "ResultScene": [
+    {
+      "Name":"StageClearText",
+      "isOperate": false,"Tag": [ "Always" ],"Texture": "StageClear",
+      "Position": [ 640.0, 200.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"NextSceneText",
+      "isOperate": true,"Tag": [ "Always" ],"Texture": "NextScene",
+      "Position": [ 640.0, 400.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"ToStageSelectSceneText",
+      "isOperate": true,"Tag": [ "Always" ],"Texture": "ToStageSelect",
+      "Position": [ 640.0, 500.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectButtonUp",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Up",
+      "Position": [ 1075.0, 615.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectDownButton",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Down",
+      "Position": [ 1125.0, 615.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SelectText",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Select",
+      "Position": [ 1150.0, 615.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"EnterButton",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Enter",
+      "Position": [ 1100.0, 675.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"EnterText",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Decision",
+      "Position": [ 1150.0, 675.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"}
+  ],
+  "MenuWindow": [
+    {
+      "Name":"EnterButton",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Enter",
+      "Position": [ 715.0, 535.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"EnterText",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Decision",
+      "Position": [ 755.0, 535.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"CloseButton",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Escape",
+      "Position": [ 490.0, 535.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"CloseText",
+      "isOperate": false,"Tag": ["Always"],"Texture": "Close",
+      "Position": [ 515.0, 535.0 ],"AnchorPoint": 3,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"OptionMenuText",
+      "isOperate": true,"Tag": ["MenuHome"],"Texture": "Option",
+      "Position": [ 640.0, 260.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"ToTitleSceneText",
+      "isOperate": true,"Tag": ["MenuHome"],"Texture": "ToTitle",
+      "Position": [ 640.0, 360.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"ToStageSelectSceneText",
+      "isOperate": true,"Tag": ["MenuHome"],"Texture": "ToStageSelect",
+      "Position": [ 640.0, 360.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"BGMText",
+      "isOperate": false,"Tag": ["MenuOption"],"Texture": "BGM",
+      "Position": [ 640.0, 160.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"BGMBar",
+      "isOperate": false,"Tag": ["MenuOption"],"Texture": "AdjustBar",
+      "Position": [ 640.0, 210.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"BGMKnob",
+      "isOperate": true,"Tag": ["MenuOption"],"Texture": "AdjustKnob",
+      "Position": [ 640.0, 210.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SEText",
+      "isOperate": false,"Tag": ["MenuOption"],"Texture": "SE",
+      "Position": [ 640.0, 310.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SEBar",
+      "isOperate": false,"Tag": ["MenuOption"],"Texture": "AdjustBar",
+      "Position": [ 640.0, 360.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"SEKnob",
+      "isOperate": true,"Tag": ["MenuOption"],"Texture": "AdjustKnob",
+      "Position": [ 640.0, 360.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"},
+    {
+      "Name":"ToHomeMenu",
+      "isOperate": true,"Tag": ["MenuOption"],"Texture": "Return",
+      "Position": [ 640.0, 460.0 ],"AnchorPoint": 4,"Scale": [ 1.0, 1.0 ],"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "ReverseX": false,"ReverseY": false,"InputKey": "0x00"}
+  ]
+}
